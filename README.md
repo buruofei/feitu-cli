@@ -8,12 +8,12 @@
 
 Windows系统安装
 ```
-$ npm i feitu-tool-cli -g
+$ npm i feitu-tools  -g
 ```
 
 Mac下安装
 ```
-$ sudo npm i feitu-tool-cli -g
+$ sudo npm i feitu-tools -g
 ```
 
 ### 查看帮助信息
@@ -27,28 +27,28 @@ $ feitu
 
 ```
 # 指定项目名字创建项目
-$ feitu create 模板名<template-name> 项目名字<project-name>
+$ feitu-tools run create 模板名<template-name> 项目名字<project-name>
 
 # 在当前目录创建项目
-$ feitu create 模板名<template-name> .
+$ feitu-tools run create 模板名<template-name> .
 ```
 
 ### 查看所有支持的项目模板
 
 ```
-$ feitu list
+$ feitu run list
 ```
 
 ### 添加项目模板
 
 ```
-$ feitu add 模板名<template-name> 模板github仓库地址,支持ssh/https格式<git-repo-address>
+$ feitu run add 模板名<template-name> 模板github仓库地址,支持ssh/https格式<git-repo-address>
 ```
 
 ### 删除项目模板
 
 ```
-$ feitu delete 模板名<template-name>
+$ feitu run delete 模板名<template-name>
 ```
 
 ### 发布到npm
