@@ -1,6 +1,6 @@
 # feituCli
 
-一个快速上手的前端脚手架, 轻松创建项目模板, 实现0配置, 快速开发。
+一个练手学习的脚手架
 
 ## Installation & Quick start
 
@@ -63,4 +63,9 @@ npm run release
 
 [Changelog]
 
-## TODOLIST
+## 参考轮子
+
+```
+https://github.com/NuoHui/easy-cli
+```
+
