@@ -68,4 +68,3 @@ npm run release
 ```
 https://github.com/NuoHui/easy-cli
 ```
-
